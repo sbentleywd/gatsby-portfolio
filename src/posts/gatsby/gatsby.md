@@ -5,6 +5,7 @@ date: "2020-09-07"
 
 I just created a new blog!
 
+![Mount Taranaki](./taranaki.jpg)
 
 ### Topics covered
 
