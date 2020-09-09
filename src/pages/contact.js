@@ -8,8 +8,9 @@ const ContactPage = () => {
     <Layout>
       <Head title="Contact" />  
       <h1>Contact</h1>
-      <p>Email: sbentleywd@gmail.com</p>
-      <p>Twitter: <a href="https://twitter.com/sbentleywd"> sbentleywd</a></p>
+      <p>Email: <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a></p>
+      <p>Tel: +64 210 886 3761</p>
+      
     
     </Layout>
   )

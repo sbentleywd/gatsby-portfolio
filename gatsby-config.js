@@ -7,10 +7,19 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Full-Stack Bootcamp!',
+    title: 'Simon Bentley',
     author: 'Simon Bentley'
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-material-ui',
+      
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
