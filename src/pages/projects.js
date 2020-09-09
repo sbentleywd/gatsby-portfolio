@@ -29,7 +29,7 @@ const ProjectsPage = () => {
   const classes = useStyles();
   return (
     <Layout>
-      <Head title="About"/>
+      <Head title="Projects"/>
       <h1>Projects</h1>
       <p>These are some of the projects I've worked on</p>
       
@@ -51,36 +51,10 @@ const ProjectsPage = () => {
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener">Deployed Project</a>
+          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
           </Button>
           <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener">Github</a>
-          </Button>
-        </CardActions>
-      </Card>
-
-      <Card className={classes.root}>
-        <CardActionArea>
-          <CardMedia
-            className={classes.media}
-            image={covid}
-            title="Covid tracker screenshot"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Covid-19 Tracker
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            Uses Covid-19 API and Chart.js to display Covid-19 case data by country.
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button size="small" color="primary">
-          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener">Deployed Project</a>
-          </Button>
-          <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener">Github</a>
+          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener noreferrer">Github</a>
           </Button>
         </CardActions>
       </Card>
@@ -103,10 +77,10 @@ const ProjectsPage = () => {
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener">Deployed Project</a>
+          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
           </Button>
           <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener">Github</a>
+          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener noreferrer">Github</a>
           </Button>
         </CardActions>
       </Card>
@@ -129,10 +103,36 @@ const ProjectsPage = () => {
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener">Deployed Project</a>
+          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
           </Button>
           <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener">Github</a>
+          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener noreferrer">Github</a>
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card className={classes.root}>
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={covid}
+            title="Covid tracker screenshot"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Covid-19 Tracker
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+            Uses Covid-19 API and Chart.js to display Covid-19 case data by country.
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary">
+          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
+          </Button>
+          <Button size="small" color="primary">
+          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener noreferrer">Github</a>
           </Button>
         </CardActions>
       </Card>
