@@ -2,9 +2,23 @@ import React, { useState} from "react"
 import Layout from '../components/layout'
 import Head from '../components/head'
 import contactStyles from './contact.module.scss'
-import TextField from '@material-ui/core/TextField';
+
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import {
+  
+  faMobileAlt,
+  faEnvelope
+    
+} from '@fortawesome/free-solid-svg-icons'
+
+import {
+  faGithub
+  
+    
+} from '@fortawesome/free-brands-svg-icons'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -68,9 +82,9 @@ const ContactPage = () => {
       <Head title="Contact" />
       <div id={contactStyles.contactContainer}>
       <div id={contactStyles.contactDetails}>
-        <p>Email: <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a></p>
-        <p>Tel: +64 210 886 3761</p>
-        <p><a href="https://github.com/sbentley85" rel="noopener noreferrer">Github</a></p>
+        <p><FontAwesomeIcon icon={faEnvelope} className={contactStyles.contactIcon} title="Email" /> <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a></p>
+        <p><FontAwesomeIcon icon={faMobileAlt} className={contactStyles.contactIcon} title="Call" /> <a href="tel: +642108863761">+64 210 886 3761</a></p>
+        <p><FontAwesomeIcon icon={faGithub} className={contactStyles.contactIcon} title="Github" /><a href="https://github.com/sbentley85" rel="noopener noreferrer">Github</a></p>
       </div>
 
       <div id={contactStyles.contactForm}>
@@ -117,7 +131,7 @@ const ContactPage = () => {
           ></textarea>
           </div>
           <div id={contactStyles.thirdLine}>
-          <button type="submit">Submit</button>
+          <Button variant="contained" type="submit">Submit</Button>
           </div>
           
         </form>

@@ -18,10 +18,10 @@ import portfolioStyles from './portfolio.module.scss'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 291,
   },
   media: {
-    height: 140,
+    height: 189,
   },
 });
 
@@ -29,7 +29,7 @@ const Portfolio = () => {
   const classes = useStyles();
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h3>Portfolio</h3>
       
       <div className={portfolioStyles.cardContainer}>
 
@@ -46,8 +46,7 @@ const Portfolio = () => {
               Recipe DB
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL & Auth0 authorization. Aims to strip out the
-            excessive narrative often associated with many recipe websites & blogs and provide a simple respository where
+            A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL & Auth0 authorization. Provides a simple respository where
             recipes can be saved and shared.
             </Typography>
           </CardContent>

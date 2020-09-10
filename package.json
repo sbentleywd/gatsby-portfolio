@@ -24,6 +24,7 @@
     "@material-ui/styles": "^4.10.0",
     "gatsby": "^2.24.50",
     "gatsby-plugin-material-ui": "^2.1.10",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.32",
