@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from '../components/layout'
+import BlogLayout from '../components/blog-layout'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import blogStyles from './blog.module.scss';
 import Head from '../components/head'
@@ -26,7 +26,7 @@ const BlogPage = () => {
   `)
   
   return (
-    <Layout>
+    <BlogLayout>
       <Head title="Blog"/>
       <h1>Blog</h1>
       <ol className={blogStyles.posts}>
@@ -42,7 +42,7 @@ const BlogPage = () => {
         })}
       </ol>
       
-    </Layout>
+    </BlogLayout>
   )
 }
 
