@@ -2,9 +2,25 @@ import React, { useState} from "react"
 import Layout from '../components/layout'
 import Head from '../components/head'
 import contactStyles from './contact.module.scss'
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& .MuiTextField-root': {
+      margin: theme.spacing(2),
+      
+    },
+  },
+}));
+
 
 const ContactPage = () => {
+  const classes = useStyles();
 
+  
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -12,7 +28,7 @@ const ContactPage = () => {
   })
 
   const handleChange = e => {
-    console.log("change")
+    
     setFormState({
       ...formState,
       [e.target.name]: e.target.value,
@@ -31,11 +47,22 @@ const ContactPage = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...formState }),
     })
-      .then(() => alert("Success!"))
+      .then(() => {
+        alert("Form submitted")
+        setFormState({
+          name: '',
+          email: '',
+          message: ''
+        })
+      })
       .catch(error => alert(error))
 
     e.preventDefault()
   }
+
+  
+
+
   return (
     <Layout>
       <Head title="Contact" />
@@ -53,15 +80,18 @@ const ContactPage = () => {
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
+            className={classes.root}
         >
             
           <input type="hidden" name="form-name" value="contact" />
+          <div id={contactStyles.firstLine}>
           <input
             type="text"
             name="name"
             onChange={handleChange}
             value={formState.name}
             placeholder="Name"
+            
           ></input>
           <input
             type="text"
@@ -69,7 +99,10 @@ const ContactPage = () => {
             onChange={handleChange}
             value={formState.email}
             placeholder="Email"
+            
           ></input>
+          </div>
+          <div id={contactStyles.secondLine}>
           <textarea
             id={contactStyles.message}
             type="text"
@@ -77,8 +110,16 @@ const ContactPage = () => {
             onChange={handleChange}
             value={formState.message}
             placeholder="Message"
+            multiline
+            fullWidth
+            
+            
           ></textarea>
+          </div>
+          <div id={contactStyles.thirdLine}>
           <button type="submit">Submit</button>
+          </div>
+          
         </form>
       </div>
       </div>  

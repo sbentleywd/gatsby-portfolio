@@ -3,6 +3,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    @media only screen and (max-width: 768px) {
+        justify-content: flex-start;
+    }
 }
 
 #contact-details {
@@ -11,12 +15,43 @@
 
 #contact-form {
     
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     
-    input, textarea {
-        width: 100%;
+    @media only screen and (min-width: 768px) {
+        width: 60%
+    }
+
+    @media only screen and (min-width: 992px) {
+        width: 40%
     }
 }
+
+form {
+    width: 100%;
+
+    #first-line {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        input {
+            width: 48%;
+            padding-left: 0.5em;
+        }
+        margin-bottom: 1rem;
+    }
+    
+    #second-line {
+        textarea {
+            width: 100%;
+            padding-left: 0.5em;
+            height: 5rem;
+        }
+
+
+    }
+    
+}
+
 
