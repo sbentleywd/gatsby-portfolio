@@ -1,0 +1,22 @@
+#contact-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact-details {
+    
+}
+
+#contact-form {
+    
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    input, textarea {
+        width: 100%;
+    }
+}
+
