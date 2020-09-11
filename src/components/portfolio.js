@@ -4,29 +4,18 @@ import Layout from './layout'
 import Head from './head'
 import covid from '../assets/img/covid2.png'
 import explore from '../assets/img/explore2.jpg'
+import blog from '../assets/img/blog.png'
 import recipes from '../assets/img/recipes2.png'
 import sm from '../assets/img/sm2.jpg'
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
+
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
+
 import portfolioStyles from './portfolio.module.scss'
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 291,
-  },
-  media: {
-    height: 189,
-  },
-});
+
 
 const Portfolio = () => {
-  const classes = useStyles();
+  
   return (
     <div>
       <h3>Portfolio</h3>
@@ -132,20 +121,20 @@ const Portfolio = () => {
 
 
         <a
-          href=""
+          href="https://codebloggg.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className={portfolioStyles.card}>
             <div className={portfolioStyles.cardImage}>
-              <img src={covid} alt="recipes screenshot" />
+              <img src={blog} alt="recipes screenshot" />
             </div>
             <div className={portfolioStyles.cardContent}>
             A blog page using Gatsby and Contentful CMS
             </div>
             <div className={portfolioStyles.cardButtons}>
               <a
-                href=""
+                href="https://codebloggg.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
