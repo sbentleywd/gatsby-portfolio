@@ -30,155 +30,176 @@ const Portfolio = () => {
   return (
     <div>
       <h3>Portfolio</h3>
-      
+
       <div className={portfolioStyles.cardContainer}>
-
-      
-      <Card className={`${classes.root} ${portfolioStyles.card}`}>
-        <a href="https://ancient-forest-86382.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-        <CardActionArea className={portfolioStyles.cardAction}>
-          <CardMedia
-            className={classes.media}
-            image={recipes}
-            title="Recipe DB screenshot"
-          />
-          <CardContent className={portfolioStyles.cardContent}>
-            <Typography gutterBottom variant="h5" component="h2">
-              Recipe DB
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL & Auth0 authorization. Provides a simple respository where
-            recipes can be saved and shared.
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+        <a
+          href="https://ancient-forest-86382.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={portfolioStyles.card}>
+            <div className={portfolioStyles.cardImage}>
+              <img src={recipes} alt="recipes screenshot" />
+            </div>
+            <div className={portfolioStyles.cardContent}>
+              A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL
+              & Auth0 authorization.
+            </div>
+            <div className={portfolioStyles.cardButtons}>
+              <a
+                href="https://ancient-forest-86382.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deployed Project
+              </a>
+              <a
+                href="https://github.com/sbentley85/recipes_db"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </div>
         </a>
-        <CardActions className={portfolioStyles.cardButtons}>
-          <Button size="small" color="primary">
-          <a href="https://ancient-forest-86382.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
-          </Button>
-          <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/recipes_db" target="_blank" rel="noopener noreferrer">Github</a>
-          </Button>
-        </CardActions>
-      </Card>
 
-      <Card className={`${classes.root} ${portfolioStyles.card}`}>
-      <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">
-        <CardActionArea className={portfolioStyles.cardAction}>
-          <CardMedia
-            className={classes.media}
-            image={covid}
-            title="Covid tracker screenshot"
-          />
-          <CardContent className={portfolioStyles.cardContent}>
-            <Typography gutterBottom variant="h5" component="h2">
-              Covid-19 Tracker
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            Uses Covid-19 API and Chart.js to display Covid-19 case data by country.
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+        <a
+          href="https://agitated-meninsky-df006d.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={portfolioStyles.card}>
+            <div className={portfolioStyles.cardImage}>
+              <img src={covid} alt="Covid tracker screenshot" />
+            </div>
+            <div className={portfolioStyles.cardContent}>
+            Uses Covid-19 API and Chart.js to display Covid-19 case data
+                  by country.
+            </div>
+            <div className={portfolioStyles.cardButtons}>
+              <a
+                href="https://agitated-meninsky-df006d.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deployed Project
+              </a>
+              <a
+                href="https://github.com/sbentley85/covid"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </div>
         </a>
-        <CardActions className={portfolioStyles.cardButtons}>
-          <Button size="small" color="primary">
-          <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
-          </Button>
-          <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/covid" target="_blank" rel="noopener noreferrer">Github</a>
-          </Button>
-        </CardActions>
-      </Card>
 
-      <Card className={`${classes.root} ${portfolioStyles.card}`}>
-      <a href="https://tranquil-garden-84884.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-        <CardActionArea className={portfolioStyles.cardAction}>
-          <CardMedia
-            className={classes.media}
-            image={explore}
-            title="Explore screenshot"
-          />
-          <CardContent className={portfolioStyles.cardContent}>
-            <Typography gutterBottom variant="h5" component="h2">
-              Explore
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            A travel app using Vue, NodeJS & Express making calls to Skyscanner, Foursquare, OpenWeather, Unsplash & Yelp APIs. Provides users with deatails of top attractions, restaurants, weather conditions and flight details for cities worldwide.
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+
+        <a
+          href="https://tranquil-garden-84884.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={portfolioStyles.card}>
+            <div className={portfolioStyles.cardImage}>
+              <img src={explore} alt="Explore screenshot" />
+            </div>
+            <div className={portfolioStyles.cardContent}>
+            A travel app using Vue, NodeJS & Express making calls to
+                  Skyscanner, Foursquare, OpenWeather, Unsplash & Yelp APIs.
+                  
+            </div>
+            <div className={portfolioStyles.cardButtons}>
+              <a
+                href="hhttps://tranquil-garden-84884.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deployed Project
+              </a>
+              <a
+                href="https://github.com/sbentley85/Explore"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </div>
         </a>
-        <CardActions className={portfolioStyles.cardButtons}>
-          <Button size="small" color="primary">
-          <a href="https://tranquil-garden-84884.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
-          </Button>
-          <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/Explore" target="_blank" rel="noopener noreferrer">Github</a>
-          </Button>
-        </CardActions>
-      </Card>
 
-      <Card className={`${classes.root} ${portfolioStyles.card}`}>
-      <a href="/blog" target="_blank" rel="noopener noreferrer">
-        <CardActionArea className={portfolioStyles.cardAction}>
-          <CardMedia
-            className={classes.media}
-            image={sm}
-            title="Blog screenshot"
-          />
-          <CardContent className={portfolioStyles.cardContent}>
-            <Typography gutterBottom variant="h5" component="h2">
-            Contentful Blog
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+
+        <a
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={portfolioStyles.card}>
+            <div className={portfolioStyles.cardImage}>
+              <img src={covid} alt="recipes screenshot" />
+            </div>
+            <div className={portfolioStyles.cardContent}>
             A blog page using Gatsby and Contentful CMS
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+            </div>
+            <div className={portfolioStyles.cardButtons}>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deployed Project
+              </a>
+              <a
+                href="https://github.com/sbentley85/gatsby-blog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </div>
         </a>
-        <CardActions className={portfolioStyles.cardButtons}>
-          <Button size="small" color="primary">
-          <a href="/blog" target="_blank" rel="noopener noreferrer">Deployed Project</a>
-          </Button>
-          <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/gatsby-portfolio" target="_blank" rel="noopener noreferrer">Github</a>
-          </Button>
-        </CardActions>
-      </Card>
 
-      <Card className={`${classes.root} ${portfolioStyles.card}`}>
-      <a href="http://smflooring.epizy.com/" target="_blank" rel="noopener noreferrer">
-        <CardActionArea className={portfolioStyles.cardAction}>
-          <CardMedia
-            className={classes.media}
-            image={sm}
-            title="SM Flooring screentshot"
-          />
-          <CardContent className={portfolioStyles.cardContent}>
-            <Typography gutterBottom variant="h5" component="h2">
-            SM Flooring
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            A static page for a family business using HTML, CSS, Bootstrap & vanilla Javascript to showcase the work of a flooring contractor
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+
+        <a
+          href="http://smflooring.epizy.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={portfolioStyles.card}>
+            <div className={portfolioStyles.cardImage}>
+              <img src={sm} alt="SM Flooring screentshot" />
+            </div>
+            <div className={portfolioStyles.cardContent}>
+            A static page for a family business using HTML, CSS, Bootstrap
+                  & vanilla Javascript to showcase the work of a flooring
+                  contractor
+            </div>
+            <div className={portfolioStyles.cardButtons}>
+              <a
+                href="http://smflooring.epizy.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deployed Project
+              </a>
+              <a
+                href="https://github.com/sbentley85/smflooring"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </div>
         </a>
-        <CardActions className={portfolioStyles.cardButtons}>
-          <Button size="small" color="primary">
-          <a href="http://smflooring.epizy.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
-          </Button>
-          <Button size="small" color="primary">
-          <a href="https://github.com/sbentley85/smflooring" target="_blank" rel="noopener noreferrer">Github</a>
-          </Button>
-        </CardActions>
-      </Card>
 
+        
+        
       </div>
-      
-    </div> 
-    
+    </div>
   )
 }
 
