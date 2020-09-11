@@ -54,7 +54,7 @@ const Portfolio = () => {
         </a>
 
         <a
-          href="https://agitated-meninsky-df006d.netlify.app/"
+          href="https://covvvid.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -68,7 +68,7 @@ const Portfolio = () => {
             </div>
             <div className={portfolioStyles.cardButtons}>
               <a
-                href="https://agitated-meninsky-df006d.netlify.app/"
+                href="https://covvvid.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
