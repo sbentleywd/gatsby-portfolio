@@ -23,7 +23,7 @@ const SkillsPage = () => {
     <Layout>
       <Head title="Skills"/>
       
-      <div>
+      <div id={skillsStyles.skillsContainer}>
         
         <FontAwesomeIcon icon={faHtml5} size="4x" title="HTML 5" className={skillsStyles.skillsIcon}/>
         <FontAwesomeIcon icon={faCss3Alt} size="4x" title="CSS 3" className={skillsStyles.skillsIcon}/>

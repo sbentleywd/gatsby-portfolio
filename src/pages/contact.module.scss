@@ -36,21 +36,29 @@ form {
         justify-content: space-between;
         flex-wrap: wrap;
         input {
-            width: 48%;
-            padding-left: 0.5em;
-            border: none;
+            width: 48%; 
         }
         margin-bottom: 1rem;
     }
 
-    
+    input, textarea {
+        padding-left: 0.5em;
+        border: none;
+        border-radius: 2px;
+        box-sizing: border-box;
+        -webkit-box-sizing:border-box;
+    }
+
+    textarea:focus, input:focus{
+        outline: 2px solid rgb(75, 82, 81);
+        
+        
+    }
     
     #second-line {
         textarea {
             width: 100%;
-            padding-left: 0.5em;
             height: 5rem;
-            border: none;
         }
         margin-bottom: 0.7rem;
 

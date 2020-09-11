@@ -35,6 +35,7 @@ const Portfolio = () => {
 
       
       <Card className={`${classes.root} ${portfolioStyles.card}`}>
+        <a href="https://ancient-forest-86382.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <CardActionArea className={portfolioStyles.cardAction}>
           <CardMedia
             className={classes.media}
@@ -51,6 +52,7 @@ const Portfolio = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions className={portfolioStyles.cardButtons}>
           <Button size="small" color="primary">
           <a href="https://ancient-forest-86382.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
@@ -62,6 +64,7 @@ const Portfolio = () => {
       </Card>
 
       <Card className={`${classes.root} ${portfolioStyles.card}`}>
+      <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">
         <CardActionArea className={portfolioStyles.cardAction}>
           <CardMedia
             className={classes.media}
@@ -77,6 +80,7 @@ const Portfolio = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions className={portfolioStyles.cardButtons}>
           <Button size="small" color="primary">
           <a href="https://agitated-meninsky-df006d.netlify.app/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
@@ -88,6 +92,7 @@ const Portfolio = () => {
       </Card>
 
       <Card className={`${classes.root} ${portfolioStyles.card}`}>
+      <a href="https://tranquil-garden-84884.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <CardActionArea className={portfolioStyles.cardAction}>
           <CardMedia
             className={classes.media}
@@ -103,6 +108,7 @@ const Portfolio = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions className={portfolioStyles.cardButtons}>
           <Button size="small" color="primary">
           <a href="https://tranquil-garden-84884.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
@@ -114,6 +120,7 @@ const Portfolio = () => {
       </Card>
 
       <Card className={`${classes.root} ${portfolioStyles.card}`}>
+      <a href="/blog" target="_blank" rel="noopener noreferrer">
         <CardActionArea className={portfolioStyles.cardAction}>
           <CardMedia
             className={classes.media}
@@ -129,6 +136,7 @@ const Portfolio = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions className={portfolioStyles.cardButtons}>
           <Button size="small" color="primary">
           <a href="/blog" target="_blank" rel="noopener noreferrer">Deployed Project</a>
@@ -140,6 +148,7 @@ const Portfolio = () => {
       </Card>
 
       <Card className={`${classes.root} ${portfolioStyles.card}`}>
+      <a href="http://smflooring.epizy.com/" target="_blank" rel="noopener noreferrer">
         <CardActionArea className={portfolioStyles.cardAction}>
           <CardMedia
             className={classes.media}
@@ -155,6 +164,7 @@ const Portfolio = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions className={portfolioStyles.cardButtons}>
           <Button size="small" color="primary">
           <a href="http://smflooring.epizy.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
