@@ -17,7 +17,7 @@ const AboutPage = () => {
         Hello World! React app I was hooked and realised that this was something
         I am passionate about and can excel at. I have a hunger to learn new
         skills and to be constantly improving and I'm excited to apply that
-        hunger to a career in web developement.
+        hunger to a career in web development.
       </p>
       <p className="light">
         I'm currently looking for a role as a web developer so if you'd like to
