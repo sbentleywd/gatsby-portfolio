@@ -83,7 +83,7 @@ const ContactPage = () => {
       <div id={contactStyles.contactContainer}>
       <div id={contactStyles.contactDetails}>
         <p><FontAwesomeIcon icon={faEnvelope} className={contactStyles.contactIcon} title="Email" /> <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a></p>
-        <p><FontAwesomeIcon icon={faMobileAlt} className={contactStyles.contactIcon} title="Call" /> <a href="tel: +642108863761">+64 210 886 3761</a></p>
+        <p><FontAwesomeIcon icon={faMobileAlt} className={contactStyles.contactIcon} title="Call" /> <a href="tel: +447383474114">07383 474 114</a></p>
         <p><FontAwesomeIcon icon={faGithub} className={contactStyles.contactIcon} title="Github" /><a href="https://github.com/sbentley85" rel="noopener noreferrer">Github</a></p>
       </div>
 
