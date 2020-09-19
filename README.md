@@ -1,1 +1,1 @@
-Gatsby Portfolio
+Gatsby Portfolio for Simon Bentley
