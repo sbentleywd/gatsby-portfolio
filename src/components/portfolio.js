@@ -31,6 +31,7 @@ const Portfolio = () => {
               <img src={recipes} alt="recipes screenshot" />
             </div>
             <div className={portfolioStyles.cardContent}>
+              <h3 className={portfolioStyles.cardTitle}>Recipe DB</h3>
               A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL
               & Auth0 authorization.
             </div>
@@ -63,6 +64,7 @@ const Portfolio = () => {
               <img src={covid} alt="Covid tracker screenshot" />
             </div>
             <div className={portfolioStyles.cardContent}>
+              <h3 className={portfolioStyles.cardTitle}>Covid Tracker</h3>
             Uses Covid-19 API and Chart.js to display Covid-19 case data
                   by country.
             </div>
@@ -96,8 +98,9 @@ const Portfolio = () => {
               <img src={explore} alt="Explore screenshot" />
             </div>
             <div className={portfolioStyles.cardContent}>
-            A travel app using Vue, NodeJS & Express making calls to
-                  Skyscanner, Foursquare, OpenWeather, Unsplash & Yelp APIs.
+              <h3 className={portfolioStyles.cardTitle}>Explore</h3>
+              A travel app using Vue, NodeJS & Express making calls to
+                  multiple 3rd party APIs.
                   
             </div>
             <div className={portfolioStyles.cardButtons}>
@@ -130,6 +133,7 @@ const Portfolio = () => {
               <img src={blog} alt="recipes screenshot" />
             </div>
             <div className={portfolioStyles.cardContent}>
+              <h3 className={portfolioStyles.cardTitle}>codebloggg</h3>
             A blog page using Gatsby and Contentful CMS
             </div>
             <div className={portfolioStyles.cardButtons}>
@@ -162,6 +166,7 @@ const Portfolio = () => {
               <img src={sm} alt="SM Flooring screentshot" />
             </div>
             <div className={portfolioStyles.cardContent}>
+              <h3 className={portfolioStyles.cardTitle}>SM Flooring</h3>
             A static page for a family business using HTML, CSS, Bootstrap
                   & vanilla Javascript to showcase the work of a flooring
                   contractor
