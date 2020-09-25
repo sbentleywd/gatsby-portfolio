@@ -1,10 +1,96 @@
+// Light/Dark mode
+
+$transition-effects: color 1s ease, background-color 1s ease;
+$dark-mode-accent: rgb(19, 77, 236);
+
+.dark-mode {
+  & a:not(.navItem) {
+    color: $dark-mode-accent !important;
+  }
+
+  & a.title {
+    color: rgb(202, 196, 196) !important;
+
+  }
+
+  & .activeNavItem {
+    color: $dark-mode-accent !important;
+  }
+
+  & .navItem {
+    color: rgb(202, 196, 196);
+  }
+}
+
+.light-mode {
+  & a:not(.navItem) {
+    color: white;
+  }
+  
+  & .title {
+    color: #000000 !important;
+  }
+}
+
+.title {
+  font-size: 3rem;
+  text-decoration: none;
+
+  
+}
+
+.link {
+  color: #999999;
+}
+
+
+
+
+
+.navList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+
+}
+
+.navItem {
+  color: white;
+  font-size: .9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: #999999;
+}
+
+.activeNavItem {
+  color: #333333;
+}
+
+
+body {
+  transition: $transition-effects;
+  &.light-mode {
+    background: linear-gradient(90deg, rgba(17,123,201,1) 0%, rgba(75,213,231,1) 100%) !important;
+    color: hsla(0, 0%, 8%, 1);
+  }
+  
+  &.dark-mode {
+    background-color: rgb(34, 32, 32);
+    color: rgb(202, 196, 196);
+  }
+  
+}
+
+
+
 .light {
   font-weight: 300;
 }
 
-a:not(header) {
-  color: white;
-}
+
 /* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
 
 html {
@@ -16,7 +102,7 @@ html {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(90deg, rgba(17,123,201,1) 0%, rgba(75,213,231,1) 100%);
+    
     color: white;
   }
   article,

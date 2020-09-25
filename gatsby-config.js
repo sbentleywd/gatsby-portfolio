@@ -12,6 +12,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-use-dark-mode",
+      options: {
+         classNameDark: "dark-mode",
+         classNameLight: "light-mode",
+         storageKey: "darkMode",
+         minify: true,
+      }
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
@@ -33,6 +42,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
+    
     {
       resolve: 'gatsby-source-contentful',
       options: {
