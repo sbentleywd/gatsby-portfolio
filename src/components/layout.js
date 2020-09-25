@@ -2,7 +2,8 @@ import React from "react"
 import Footer from '../components/footer'
 import Header from '../components/header'
 import '../styles/index.scss'
-import layoutStyles from './layout.module.scss'
+import layoutStyles from './layout.module.scss';
+import DarkModeButtons from './dark-mode-buttons'
 
 
 const Layout = (props) => {
@@ -12,6 +13,7 @@ const Layout = (props) => {
             <div className={layoutStyles.content}>
                 <Header />
                 {props.children}
+                <DarkModeButtons />
             </div>
             <Footer />
         </div>

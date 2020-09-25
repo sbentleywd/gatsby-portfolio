@@ -45,9 +45,10 @@
     position: absolute;
     bottom: 0;
     a {
-        color: blue;
+        color: blue !important;
         text-decoration: none;
     }
+    
 }
 
 .card-content {
