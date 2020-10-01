@@ -1,21 +1,18 @@
 import React from "react"
-import { Link } from 'gatsby'
-import Layout from './layout'
-import Head from './head'
 import covid from '../assets/img/covid2.png'
 import explore from '../assets/img/explore2.jpg'
 import blog from '../assets/img/blog.png'
 import recipes from '../assets/img/recipes2.png'
 import sm from '../assets/img/sm2.jpg'
-
-import { makeStyles } from '@material-ui/core/styles';
-
 import portfolioStyles from './portfolio.module.scss'
 
 
 
 const Portfolio = () => {
-  
+  // renders cards for each portfolio projects
+  // todo - create reuseable card component
+
+
   return (
     <div>
       <h3>Portfolio</h3>

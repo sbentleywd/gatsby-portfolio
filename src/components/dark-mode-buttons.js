@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import DarkButton from './darkButton';
 import LightButton from './lightButton';
@@ -11,11 +11,12 @@ export default function DarkModeButtons() {
   
 
   const toggleDarkMode = (theme) => {
+    // toggles dark mode which adds class to body of "dark-mode" or "light mode" which is picked up by css
     theme === 'dark' ? darkMode.enable() : darkMode.disable();
-    console.log('toggling theme');
-    console.log(darkMode);
+    
   }
 
+  // returns either light mode or dark mode button depending on current theme
   return (
     <div className="dark-mode-buttons">
       
