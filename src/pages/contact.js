@@ -2,24 +2,18 @@ import React, { useState} from "react"
 import Layout from '../components/layout'
 import Head from '../components/head'
 import contactStyles from './contact.module.scss'
-
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import {
   
   faMobileAlt,
   faEnvelope
     
 } from '@fortawesome/free-solid-svg-icons'
-
 import {
   faGithub
-  
-    
 } from '@fortawesome/free-brands-svg-icons'
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,13 +28,14 @@ const useStyles = makeStyles((theme) => ({
 const ContactPage = () => {
   const classes = useStyles();
 
-  
+  // default form state, all fields blank
   const [formState, setFormState] = useState({
     name: "",
     email: "",
     message: "",
   })
 
+  // update state on form change
   const handleChange = e => {
     
     setFormState({
@@ -49,12 +44,13 @@ const ContactPage = () => {
     })
   }
 
+  
   const encode = data => {
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&")
   }
-
+  // Netlify forms submission
   const handleSubmit = e => {
     fetch("/", {
       method: "POST",

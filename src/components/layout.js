@@ -7,6 +7,7 @@ import DarkModeButtons from './dark-mode-buttons'
 
 
 const Layout = (props) => {
+    // layout rendered on each page, adds header, floating buttons & containers to contents of each page component
     return (
         <div className={layoutStyles.container}>
             

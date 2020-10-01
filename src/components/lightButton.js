@@ -1,22 +1,12 @@
 import React from 'react';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
-import { makeStyles } from '@material-ui/core/styles';
-import Fab from '@material-ui/core/Fab';
-import { yellow } from '@material-ui/core/colors';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-    extendedIcon: {
-      marginRight: theme.spacing(1),
-    },
-  }));
+import Fab from '@material-ui/core/Fab';
+
+
 
 const LightButton = (props) => {
-    const classes = useStyles();
+
     const style = {
         margin: 0,
         top: 'auto',
@@ -26,6 +16,8 @@ const LightButton = (props) => {
         position: 'fixed',
         backgroundColor: 'yellow',
     };
+
+    // If the `onClick` prop exists, call it with 'dark'
     const handleClick = () => props.onClick && props.onClick('light');
 
     return (

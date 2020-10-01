@@ -1,11 +1,10 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
-
-//import './header.module.scss'
 import headerStyles from './header.module.scss'
 
 
 const Header = () => {
+  // gets page title for headline link
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -23,7 +22,7 @@ const Header = () => {
         <Link className="title" to="/">
           {data.site.siteMetadata.title}
         </Link>
-        </h1>
+      </h1>
       <nav>
           <ul className="navList">
               <li >
