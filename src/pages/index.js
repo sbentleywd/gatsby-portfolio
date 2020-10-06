@@ -13,8 +13,9 @@ const IndexPage = () => {
 
       <p className="light">
         I am a web developer with a passion for using the latest technologies to
-        create interesting and functional websites. Please take a look through
-        my projects below and feel free to 
+        create interesting and functional websites. 
+        
+        Please take a look through my projects below and feel free to 
         <Link to="/contact"> get in touch</Link>
       </p>
 

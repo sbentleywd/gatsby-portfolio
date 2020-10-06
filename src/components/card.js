@@ -1,6 +1,6 @@
 import React from 'react';
 import portfolioStyles from './portfolio.module.scss';
-import recipes from '../assets/img/recipes2.png';
+
 
 
 const Card = (props) => {

@@ -13,11 +13,7 @@ const AboutPage = () => {
       </p>
       <p className="light"></p>
       <p className="light">
-        I started learning web development in 2019 and since making my first
-        Hello World! React app I was hooked and realised that this was something
-        I am passionate about and can excel at. I have a hunger to learn new
-        skills and to be constantly improving and I'm excited to apply that
-        hunger to a career in web development.
+      I am a self-educated passionate web developer versed in using a range of modern technologies looking for a new opportunity. Web Development began as a skill I was interested in developing and led to a career path I wanted to follow. I am a trained and qualified accountant who has always enjoyed the analytical and problem-solving aspect of finance. I have a hunger to learn new skills and I am eager to add to my current skill set and find a role that will allow me to excel as I know I can.
       </p>
       <p className="light">
         I'm currently looking for a role as a web developer so if you'd like to

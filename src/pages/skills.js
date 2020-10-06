@@ -24,18 +24,32 @@ const SkillsPage = () => {
       <Head title="Skills"/>
       
       <div id={skillsStyles.skillsContainer}>
+
+        <div id={skillsStyles.skillsIcons}>
+          <FontAwesomeIcon icon={faHtml5} size="4x" title="HTML 5" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faCss3Alt} size="4x" title="CSS 3" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faJsSquare} size="4x" title="Javascript" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faReact} size="4x" title="React" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faVuejs} size="4x" title="Vue" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faNodeJs} size="4x" title="Node.js" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faNpm} size="4x" title="npm" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faSass} size="4x" title="Sass" className={skillsStyles.skillsIcon}/>
+          <FontAwesomeIcon icon={faGit} size="4x" title="Git" className={skillsStyles.skillsIcon}/>
+        </div>
         
-        <FontAwesomeIcon icon={faHtml5} size="4x" title="HTML 5" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faCss3Alt} size="4x" title="CSS 3" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faJsSquare} size="4x" title="Javascript" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faReact} size="4x" title="React" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faVuejs} size="4x" title="Vue" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faNodeJs} size="4x" title="Node.js" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faNpm} size="4x" title="npm" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faSass} size="4x" title="Sass" className={skillsStyles.skillsIcon}/>
-        <FontAwesomeIcon icon={faGit} size="4x" title="Git" className={skillsStyles.skillsIcon}/>
+
+        <div id={skillsStyles.skillsDetails}>
+          <p>Languages with some understanding</p>
+          <ul>
+            <li>Python</li>
+            <li>PHP</li>
+          </ul>
+        </div>  
+
         
       </div>
+
+      
       
     </Layout>
   )
