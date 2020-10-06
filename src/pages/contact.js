@@ -78,9 +78,9 @@ const ContactPage = () => {
       <Head title="Contact" />
       <div id={contactStyles.contactContainer}>
       <div id={contactStyles.contactDetails}>
-        <p><FontAwesomeIcon icon={faEnvelope} className={contactStyles.contactIcon} title="Email" /> <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a></p>
-        <p><FontAwesomeIcon icon={faMobileAlt} className={contactStyles.contactIcon} title="Call" /> <a href="tel: +447383474114">07383 474 114</a></p>
-        <p><FontAwesomeIcon icon={faGithub} className={contactStyles.contactIcon} title="Github" /><a href="https://github.com/sbentley85" rel="noopener noreferrer">Github</a></p>
+        <p><div className={contactStyles.contactIconContainer}><FontAwesomeIcon icon={faEnvelope} className={contactStyles.contactIcon} title="Email" /></div> <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a></p>
+        <p><div className={contactStyles.contactIconContainer}><FontAwesomeIcon icon={faMobileAlt} className={contactStyles.contactIcon} title="Call" /></div> <a href="tel: +447383474114">07383 474 114</a></p>
+        <p><div className={contactStyles.contactIconContainer}><FontAwesomeIcon icon={faGithub} className={contactStyles.contactIcon} title="Github" /></div> <a href="https://github.com/sbentley85" rel="noopener noreferrer">Github</a></p>
       </div>
 
       <div id={contactStyles.contactForm}>

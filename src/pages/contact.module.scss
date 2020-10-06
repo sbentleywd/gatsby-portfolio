@@ -67,8 +67,13 @@ form {
     
 }
 
-.contact-icon {
+
+.contact-icon-container {
+    display: inline-block;
+    width: 20px;
     margin-right: 0.75rem;
+    text-align: center;
+
 }
 
 
