@@ -6,8 +6,8 @@ import Fab from "@material-ui/core/Fab"
 const LightButton = props => {
   const style = {
     margin: 0,
-    top: 20,
-    right: 20,
+    top: 25,
+    right: 25,
     bottom: "auto",
     left: "auto",
     position: "fixed",
