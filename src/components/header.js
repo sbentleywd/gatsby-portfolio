@@ -1,7 +1,6 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from 'gatsby'
-import headerStyles from './header.module.scss'
-
+import { Link, graphql, useStaticQuery } from "gatsby"
+import headerStyles from "./header.module.scss"
 
 const Header = () => {
   // gets page title for headline link
@@ -15,7 +14,6 @@ const Header = () => {
     }
   `)
 
-
   return (
     <header className={headerStyles.header}>
       <h1>
@@ -24,30 +22,44 @@ const Header = () => {
         </Link>
       </h1>
       <nav>
-          <ul className="navList">
-              <li >
-                <Link className="navItem" activeClassName="activeNavItem" to="/">Home</Link>            
-              </li>
-              
-              <li>
-                <Link className="navItem" activeClassName="activeNavItem" to="/skills">Skills</Link>            
-              </li>
-              <li>
-                <Link className="navItem" activeClassName="activeNavItem" to="/about">About</Link>            
-              </li>
-              <li>
-                <Link className="navItem" activeClassName="activeNavItem" to="/contact">Contact</Link>           
-              </li>
-              
-          </ul>
+        <ul className="navList">
+          <li>
+            <Link className="navItem" activeClassName="activeNavItem" to="/">
+              Home
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className="navItem"
+              activeClassName="activeNavItem"
+              to="/skills"
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navItem"
+              activeClassName="activeNavItem"
+              to="/about"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navItem"
+              activeClassName="activeNavItem"
+              to="/contact"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
       </nav>
-      
-      
-      
-      
-      
     </header>
   )
 }
 
-export default Header;  
+export default Header
