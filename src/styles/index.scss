@@ -19,6 +19,10 @@ $dark-mode-accent: rgb(19, 77, 236);
   & .navItem {
     color: rgb(202, 196, 196);
   }
+
+  & #download {
+    color: white !important;
+  }
 }
 
 .light-mode {

@@ -44,6 +44,7 @@ const IndexPage = () => {
             rel="noopener noreferrer"
             href={withPrefix("/simonbentleycv20.pdf")}
             target="blank"
+            id="download"
           >
             Download CV
           </a>
