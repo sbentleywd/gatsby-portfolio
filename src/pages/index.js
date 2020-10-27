@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Portfolio from "../components/portfolio"
 import Button from "@material-ui/core/Button"
 import { makeStyles } from "@material-ui/core/styles"
-import Icon from "@material-ui/core/Icon"
+
 import CloudDownload from "@material-ui/icons/CloudDownload"
 
 const useStyles = makeStyles(theme => ({
