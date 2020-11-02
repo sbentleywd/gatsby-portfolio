@@ -23,9 +23,9 @@ const Portfolio = () => {
     {
       title: "Covid Tracker",
       description:
-        "Uses Covid-19 API and Chart.js to display Covid-19 case data by country.",
-      projectLink: "https://covvvid.netlify.app/",
-      githubLink: "https://github.com/sbentleywd/covid",
+        "Uses Covid-19 API and React to display Covid-19 case data by country or UK regions",
+      projectLink: "https://covvvid2.netlify.app/",
+      githubLink: "https://github.com/sbentleywd/covid-react",
       imgSRC: covid,
       imgAlt: "Covid tracker screenshot",
     },
