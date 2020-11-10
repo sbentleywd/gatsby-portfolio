@@ -6,7 +6,11 @@ import Button from "@material-ui/core/Button"
 import { makeStyles } from "@material-ui/core/styles"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMobileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -92,8 +96,44 @@ const ContactPage = () => {
                 title="Github"
               />
             </div>{" "}
-            <a href="https://github.com/sbentleywd" rel="noopener noreferrer">
+            <a
+              href="https://github.com/sbentleywd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
+            </a>
+          </p>
+          <p>
+            <div className={contactStyles.contactIconContainer}>
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className={contactStyles.contactIcon}
+                title="linkedin"
+              />
+            </div>{" "}
+            <a
+              href="https://linkedin.com/in/sbentleywd"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Linkedin
+            </a>
+          </p>
+          <p>
+            <div className={contactStyles.contactIconContainer}>
+              <FontAwesomeIcon
+                icon={faTwitter}
+                className={contactStyles.contactIcon}
+                title="Twitter"
+              />
+            </div>{" "}
+            <a
+              href="https://twitter.com/sbentleywd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
             </a>
           </p>
         </div>
