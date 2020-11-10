@@ -57,7 +57,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <div>
+    <div id="portfolio">
       <h3>Portfolio</h3>
 
       <div className={portfolioStyles.cardContainer}>
