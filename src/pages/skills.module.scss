@@ -5,6 +5,10 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  transition: transform 0.2s;
+  :hover {
+    transform: scale(1.05);
+  }
 }
 
 #skills-container {

@@ -2,7 +2,7 @@ import React from "react"
 import { Link, withPrefix } from "gatsby"
 import Head from "../components/head"
 import IndexLayout from "../components/indexLayout"
-
+import headshot from "../assets/img/headshot.jpeg"
 import Button from "@material-ui/core/Button"
 import { makeStyles } from "@material-ui/core/styles"
 import Container from "@material-ui/core/Container"
@@ -30,8 +30,9 @@ const IndexPage = () => {
         <Container maxWidth="xl" className={indexStyles.landing}>
           <div className={indexStyles.landingHeader}>
             <h1>Simon Bentley</h1>
+            <div className={indexStyles.headshot}></div>
 
-            <h3>Web Developer</h3>
+            {/* <h3>Web Developer</h3> */}
           </div>
 
           <div className={indexStyles.landingText}>

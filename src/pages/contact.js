@@ -72,7 +72,7 @@ const ContactPage = () => {
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faEnvelope}
-                className={contactStyles.contactIcon}
+                className={"contact-icon"}
                 title="Email"
               />
             </div>{" "}
@@ -82,7 +82,7 @@ const ContactPage = () => {
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faMobileAlt}
-                className={contactStyles.contactIcon}
+                className={"contact-icon"}
                 title="Call"
               />
             </div>{" "}
@@ -92,7 +92,7 @@ const ContactPage = () => {
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faGithub}
-                className={contactStyles.contactIcon}
+                className={"contact-icon"}
                 title="Github"
               />
             </div>{" "}
@@ -108,7 +108,7 @@ const ContactPage = () => {
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className={contactStyles.contactIcon}
+                className={"contact-icon"}
                 title="linkedin"
               />
             </div>{" "}
@@ -124,7 +124,7 @@ const ContactPage = () => {
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faTwitter}
-                className={contactStyles.contactIcon}
+                className={"contact-icon"}
                 title="Twitter"
               />
             </div>{" "}

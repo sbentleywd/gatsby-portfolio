@@ -4,7 +4,12 @@ import portfolioStyles from "./portfolio.module.scss"
 const Card = props => {
   const data = props.data
   return (
-    <div className={portfolioStyles.card}>
+    <div
+      data-sal="slide-up"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+      className={portfolioStyles.card}
+    >
       <div className={portfolioStyles.cardImage}>
         <a href={data.projectLink} target="_blank" rel="noopener noreferrer">
           <img src={data.imgSRC} alt={data.imgAlt} />

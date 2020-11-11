@@ -10,7 +10,7 @@ const skillsIcon = props => {
         size="4x"
         title={props.skill.skill}
       />
-      <h5>{props.skill.skill}</h5>
+      <p>{props.skill.skill}</p>
     </div>
   )
 }

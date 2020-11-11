@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: flex-start;
+  width: 90%;
 
   @media only screen and (max-width: 768px) {
     justify-content: flex-start;
@@ -16,17 +17,18 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 
   @media only screen and (max-width: 768px) {
     margin-bottom: 2rem;
   }
 
   @media only screen and (min-width: 768px) {
-    width: 60%;
+    max-width: 70%;
   }
 
   @media only screen and (min-width: 992px) {
-    width: 35%;
+    max-width: 50%;
   }
 }
 
@@ -71,4 +73,10 @@ form {
   width: 20px;
   margin-right: 0.75rem;
   text-align: center;
+}
+
+.light-mode {
+  & .contact-icon {
+    color: black;
+  }
 }

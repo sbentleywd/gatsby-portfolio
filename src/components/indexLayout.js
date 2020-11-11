@@ -10,6 +10,7 @@ const IndexLayout = props => {
   // layout rendered on each page, adds header, floating buttons & containers to contents of each page component
   return (
     <>
+      <div className={layoutStyles.indexContainer}></div>
       <div className={layoutStyles.container}>
         <Header />
         <div className={layoutStyles.content}>
@@ -17,6 +18,7 @@ const IndexLayout = props => {
           <DarkModeButtons />
         </div>
       </div>
+
       <div className={layoutStyles.container}>
         <Portfolio />
         <Footer />

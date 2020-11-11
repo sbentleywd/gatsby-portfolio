@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  opacity: 1;
+  z-index: 100;
 }
 
 .content {
@@ -14,4 +16,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  z-index: 100;
+}
+
+.indexContainer {
+  width: 100%;
+  background: url("../assets/img/bg1.jpg");
+  height: 100vh;
+  background-size: cover;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom: 1px solid black;
 }

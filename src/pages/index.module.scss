@@ -4,12 +4,14 @@
   align-items: center;
   flex-wrap: wrap;
   flex-grow: 1;
+  flex-direction: column;
 }
 
 .landing-text {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 60%;
 }
 
 .landing-header {
@@ -18,4 +20,13 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+}
+
+.headshot {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  background-image: url("../assets/img/headshot.jpeg");
+  background-size: cover;
+  margin-bottom: 1.45rem;
 }
