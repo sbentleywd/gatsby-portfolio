@@ -12,6 +12,7 @@ const LightButton = props => {
     left: "auto",
     position: "fixed",
     backgroundColor: "yellow",
+    zIndex: 10000,
   }
 
   // If the `onClick` prop exists, call it with 'dark'

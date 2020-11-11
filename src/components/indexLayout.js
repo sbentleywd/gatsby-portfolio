@@ -11,8 +11,8 @@ const IndexLayout = props => {
   return (
     <>
       <div className={layoutStyles.container}>
+        <Header />
         <div className={layoutStyles.content}>
-          <Header />
           {props.children}
           <DarkModeButtons />
         </div>

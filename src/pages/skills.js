@@ -3,6 +3,11 @@ import skillsStyles from "./skills.module.scss"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Button from "@material-ui/core/Button"
+import CloudDownload from "@material-ui/icons/CloudDownload"
+import { Link, withPrefix } from "gatsby"
+import { makeStyles } from "@material-ui/core/styles"
+import SkillsIcon from "../components/skillsIcon"
 
 import {
   faHtml5,
@@ -17,73 +22,37 @@ import {
   faPython,
 } from "@fortawesome/free-brands-svg-icons"
 
+const useStyles = makeStyles(theme => ({
+  button: {
+    margin: theme.spacing(1),
+  },
+}))
+
+const skills = [
+  { skill: "HTML", icon: faHtml5, title: "HTML 5" },
+  { skill: "CSS", icon: faCss3Alt, title: "CSS 3" },
+  { skill: "Javascript", icon: faJsSquare, title: "Javascript" },
+  { skill: "React", icon: faReact, title: "Javascript" },
+  { skill: "Vue", icon: faVuejs, title: "Javascript" },
+  { skill: "Node JS", icon: faNodeJs, title: "Javascript" },
+  { skill: "npm", icon: faNpm, title: "Javascript" },
+  { skill: "Sass", icon: faSass, title: "Javascript" },
+  { skill: "Git", icon: faGit, title: "Javascript" },
+  { skill: "Python", icon: faPython, title: "Javascript" },
+]
+
 const SkillsPage = () => {
+  const classes = useStyles()
+
   return (
     <Layout>
       <Head title="Skills" />
 
       <div id={skillsStyles.skillsContainer}>
         <div id={skillsStyles.skillsIcons}>
-          <FontAwesomeIcon
-            icon={faHtml5}
-            size="4x"
-            title="HTML 5"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faCss3Alt}
-            size="4x"
-            title="CSS 3"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faJsSquare}
-            size="4x"
-            title="Javascript"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faReact}
-            size="4x"
-            title="React"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faVuejs}
-            size="4x"
-            title="Vue"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faNodeJs}
-            size="4x"
-            title="Node.js"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faNpm}
-            size="4x"
-            title="npm"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faSass}
-            size="4x"
-            title="Sass"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faPython}
-            size="4x"
-            title="Python"
-            className={skillsStyles.skillsIcon}
-          />
-          <FontAwesomeIcon
-            icon={faGit}
-            size="4x"
-            title="Git"
-            className={skillsStyles.skillsIcon}
-          />
+          {skills.map(skill => {
+            return <SkillsIcon skill={skill} />
+          })}
         </div>
 
         <div id={skillsStyles.skillsDetails}>
@@ -91,6 +60,24 @@ const SkillsPage = () => {
             <li>Version control: Git & Github</li>
             <li>Responsive design, Bootstrap & Materialize</li>
           </ul>
+        </div>
+
+        <div>
+          <Button
+            variant="contained"
+            color="primary"
+            className={classes.button}
+            endIcon={<CloudDownload />}
+          >
+            <a
+              rel="noopener noreferrer"
+              href={withPrefix("/simonbentleycv20.pdf")}
+              target="blank"
+              id="download"
+            >
+              Download CV
+            </a>
+          </Button>
         </div>
       </div>
     </Layout>

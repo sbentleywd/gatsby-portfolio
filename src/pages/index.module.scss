@@ -5,3 +5,17 @@
   flex-wrap: wrap;
   flex-grow: 1;
 }
+
+.landing-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.landing-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}

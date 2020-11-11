@@ -11,13 +11,13 @@ const AboutPage = () => {
       <p>My name is Simon, I'm a web developer based in London.</p>
 
       <p>
-        I am a self-educated passionate web developer versed in using a range of
-        modern technologies looking for a new opportunity. Web Development began
-        as a skill I was interested in developing and led to a career path I
-        wanted to follow. I am a trained and qualified accountant who has always
+        I am a self-educated web developer versed in using a range of modern
+        technologies looking for a new opportunity. Web Development began as a
+        skill I was interested in developing and led to a career path I wanted
+        to follow. I am a trained and qualified accountant who has always
         enjoyed the analytical and problem-solving aspect of finance. I have a
         hunger to learn new skills and I am eager to add to my current skill set
-        and find a role that will allow me to excel as I know I can.
+        and find a role that will allow me to excel.
       </p>
       <p>
         I'm currently looking for a role as a web developer so if you'd like to

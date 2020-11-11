@@ -12,6 +12,7 @@ const DarkButton = props => {
     left: "auto",
     position: "fixed",
     backgroundColor: "black",
+    zIndex: 10000,
   }
 
   // If the `onClick` prop exists, call it with 'dark'
