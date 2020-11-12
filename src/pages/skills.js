@@ -2,10 +2,10 @@ import React from "react"
 import skillsStyles from "./skills.module.scss"
 import Layout from "../components/layout"
 import Head from "../components/head"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import Button from "@material-ui/core/Button"
 import CloudDownload from "@material-ui/icons/CloudDownload"
-import { Link, withPrefix } from "gatsby"
+import { withPrefix } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
 import SkillsIcon from "../components/skillsIcon"
 
@@ -51,7 +51,7 @@ const SkillsPage = () => {
       <div id={skillsStyles.skillsContainer}>
         <div id={skillsStyles.skillsIcons}>
           {skills.map(skill => {
-            return <SkillsIcon skill={skill} />
+            return <SkillsIcon skill={skill} key={skill.skill} />
           })}
         </div>
 

@@ -1,13 +1,13 @@
 import React from "react"
-import { Link, withPrefix } from "gatsby"
+import { Link } from "gatsby"
 import Head from "../components/head"
 import IndexLayout from "../components/indexLayout"
-import headshot from "../assets/img/headshot.jpeg"
+
 import Button from "@material-ui/core/Button"
 import { makeStyles } from "@material-ui/core/styles"
 import Container from "@material-ui/core/Container"
 import indexStyles from "./index.module.scss"
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"
+import { Link as ScrollLink } from "react-scroll"
 
 const useStyles = makeStyles(theme => ({
   marginAutoContainer: {
@@ -31,8 +31,6 @@ const IndexPage = () => {
           <div className={indexStyles.landingHeader}>
             <h1>Simon Bentley</h1>
             <div className={indexStyles.headshot}></div>
-
-            {/* <h3>Web Developer</h3> */}
           </div>
 
           <div className={indexStyles.landingText}>

@@ -62,7 +62,7 @@ const Portfolio = () => {
 
       <div className={portfolioStyles.cardContainer}>
         {projects.map(project => {
-          return <Card data={project} />
+          return <Card data={project} key={project.imgSRC} />
         })}
       </div>
     </div>

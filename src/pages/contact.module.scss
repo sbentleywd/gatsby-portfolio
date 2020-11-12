@@ -11,6 +11,13 @@
 
 #contact-details {
   margin-right: 5rem;
+  @media only screen and (max-width: 992px) {
+    margin-right: 0;
+  }
+}
+
+.contact-details-row {
+  margin-bottom: 1.1rem;
 }
 
 #contact-form {

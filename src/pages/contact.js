@@ -68,7 +68,7 @@ const ContactPage = () => {
       <Head title="Contact" />
       <div id={contactStyles.contactContainer}>
         <div id={contactStyles.contactDetails}>
-          <p>
+          <div className={contactStyles.contactDetailsRow}>
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faEnvelope}
@@ -77,8 +77,8 @@ const ContactPage = () => {
               />
             </div>{" "}
             <a href="mailto:sbentleywd@gmail.com">sbentleywd@gmail.com</a>
-          </p>
-          <p>
+          </div>
+          <div className={contactStyles.contactDetailsRow}>
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faMobileAlt}
@@ -87,8 +87,8 @@ const ContactPage = () => {
               />
             </div>{" "}
             <a href="tel: +447383474114">07383 474 114</a>
-          </p>
-          <p>
+          </div>
+          <div className={contactStyles.contactDetailsRow}>
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faGithub}
@@ -103,8 +103,8 @@ const ContactPage = () => {
             >
               Github
             </a>
-          </p>
-          <p>
+          </div>
+          <div className={contactStyles.contactDetailsRow}>
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faLinkedin}
@@ -119,8 +119,8 @@ const ContactPage = () => {
             >
               Linkedin
             </a>
-          </p>
-          <p>
+          </div>
+          <div className={contactStyles.contactDetailsRow}>
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
                 icon={faTwitter}
@@ -135,7 +135,7 @@ const ContactPage = () => {
             >
               Twitter
             </a>
-          </p>
+          </div>
         </div>
 
         <div id={contactStyles.contactForm}>
