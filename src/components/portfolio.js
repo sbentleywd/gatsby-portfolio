@@ -4,6 +4,7 @@ import explore from "../assets/img/explore2.jpg"
 import blog from "../assets/img/blog.png"
 import recipes from "../assets/img/recipes2.png"
 import chiang from "../assets/img/chiang.png"
+import spotify from "../assets/img/spotify.png"
 import portfolioStyles from "./portfolio.module.scss"
 import Card from "./card"
 
@@ -11,6 +12,15 @@ const Portfolio = () => {
   // renders cards for each portfolio projects
   // todo - create reuseable card component
   const projects = [
+    {
+      title: "Spotify Recommend",
+      description:
+        "An app using Spotify Web API and player SDK to recommend and play songs. Built with React, Typescript.",
+      projectLink: "https://spotify-recommend.netlify.app/",
+      githubLink: "https://github.com/sbentleywd/spotify-recommend",
+      imgSRC: spotify,
+      imgAlt: "spotify screenshot",
+    },
     {
       title: "Recipe DB",
       description:
