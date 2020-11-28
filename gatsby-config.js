@@ -20,15 +20,22 @@ module.exports = {
         minify: true,
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto`,
+    //         variants: [`300`, `400`, `700`],
+    //       },
+    //     ],
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [`300`, `400`, `700`],
-          },
-        ],
+        fonts: [`Roboto\:300,400,700`],
+        display: "swap",
       },
     },
     {
