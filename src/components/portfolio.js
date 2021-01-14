@@ -10,12 +10,12 @@ import Card from "./card"
 
 const Portfolio = () => {
   // renders cards for each portfolio projects
-  // todo - create reuseable card component
+
   const projects = [
     {
       title: "Spotify Recommend",
       description:
-        "An app using Spotify Web API and player SDK to recommend and play songs. Built with React, Typescript.",
+        "An app using Spotify Web API and player SDK to recommend and play songs. Built with React, Typescript. (Requires Spotify Premium)",
       projectLink: "https://spotify-recommend.netlify.app/",
       githubLink: "https://github.com/sbentleywd/spotify-recommend",
       imgSRC: spotify,
@@ -33,7 +33,7 @@ const Portfolio = () => {
     {
       title: "Covid Tracker",
       description:
-        "Uses Covid-19 API and React to display Covid-19 case data by country or UK regions",
+        "Uses React, Redux, Material UI & ChartJS to display Covid-19 case data by country or UK region",
       projectLink: "https://covvvid2.netlify.app/",
       githubLink: "https://github.com/sbentleywd/covid-react",
       imgSRC: covid,
