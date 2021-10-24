@@ -48,14 +48,14 @@ const Portfolio = () => {
       imgSRC: explore,
       imgAlt: "Explore screenshot",
     },
-    {
-      title: "codebloggg",
-      description: "A blog page using Gatsby and Contentful CMS.",
-      projectLink: "https://codebloggg.netlify.app/",
-      githubLink: "https://github.com/sbentleywd/gatsby-blog",
-      imgSRC: blog,
-      imgAlt: "codebloggg screenshot",
-    },
+    // {
+    //   title: "codebloggg",
+    //   description: "A blog page using Gatsby and Contentful CMS.",
+    //   projectLink: "https://codebloggg.netlify.app/",
+    //   githubLink: "https://github.com/sbentleywd/gatsby-blog",
+    //   imgSRC: blog,
+    //   imgAlt: "codebloggg screenshot",
+    // },
     {
       title: "Chiang Mai",
       description: "A site for a local Thai restaurant",
