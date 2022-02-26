@@ -19,7 +19,6 @@ import {
   faNpm,
   faSass,
   faGit,
-  faPython,
 } from "@fortawesome/free-brands-svg-icons"
 
 const useStyles = makeStyles(theme => ({
@@ -38,7 +37,7 @@ const skills = [
   { skill: "npm", icon: faNpm, title: "Javascript" },
   { skill: "Sass", icon: faSass, title: "Javascript" },
   { skill: "Git", icon: faGit, title: "Javascript" },
-  { skill: "Python", icon: faPython, title: "Javascript" },
+  // { skill: "Python", icon: faPython, title: "Javascript" },
 ]
 
 const SkillsPage = () => {
@@ -59,6 +58,8 @@ const SkillsPage = () => {
           <ul>
             <li>Version control: Git & Github</li>
             <li>Responsive design, Bootstrap & Materialize</li>
+            <li>Some experience using JQuery</li>
+            <li>Exposure to python</li>
           </ul>
         </div>
 
