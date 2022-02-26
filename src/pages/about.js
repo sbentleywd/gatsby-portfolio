@@ -12,18 +12,16 @@ const AboutPage = () => {
         <p className={aboutStyles.aboutTest}>
           My name is Simon, I'm a web developer based in London.
         </p>
-
         <p>
-          I am a self-educated web developer versed in using a range of modern
-          technologies looking for a new opportunity. Web Development began as a
-          skill I was interested in developing and led to a career path I wanted
-          to follow. I am a trained and qualified accountant who has always
-          enjoyed the analytical and problem-solving aspect of finance. I have a
-          hunger to learn new skills and I am eager to add to my current skill
-          set and find a role that will allow me to excel.
+          I am a self-educated web developer experienced in using a range of
+          modern technologies. Web Development began as a skill I was interested
+          in learning and led to a career path I wanted to follow. I have
+          previously had a successful career as an accountant and always
+          enjoyed the analytical and problem-solving aspect of finance.
         </p>
         <p>
-          I'm currently looking for a role as a web developer so if you'd like
+          I'm currently looking for a role where I can contribute to a company I
+          am passionate about and further develop my skillset so if you'd like
           to discuss what I can bring to your company or project please{" "}
           <Link to="/contact">get in touch</Link>
         </p>
