@@ -81,16 +81,6 @@ const ContactPage = () => {
           <div className={contactStyles.contactDetailsRow}>
             <div className={contactStyles.contactIconContainer}>
               <FontAwesomeIcon
-                icon={faMobileAlt}
-                className={"contact-icon"}
-                title="Call"
-              />
-            </div>{" "}
-            <a href="tel: +447383474114">07383 474 114</a>
-          </div>
-          <div className={contactStyles.contactDetailsRow}>
-            <div className={contactStyles.contactIconContainer}>
-              <FontAwesomeIcon
                 icon={faGithub}
                 className={"contact-icon"}
                 title="Github"
