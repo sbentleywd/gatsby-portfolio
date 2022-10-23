@@ -27,15 +27,15 @@ const Portfolio = () => {
       imgSRC: word,
       imgAlt: "Word game screenshot",
     },
-    {
-      title: "Recipe DB",
-      description:
-        "A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL & Auth0 authorization.",
-      projectLink: "https://ancient-forest-86382.herokuapp.com/",
-      githubLink: "https://github.com/sbentleywd/recipes_db",
-      imgSRC: recipes,
-      imgAlt: "recipes screenshot",
-    },
+    // {
+    //   title: "Recipe DB",
+    //   description:
+    //     "A no-nonsense recipe app using React, NodeJS, Express, PostgreSQL & Auth0 authorization.",
+    //   projectLink: "https://ancient-forest-86382.herokuapp.com/",
+    //   githubLink: "https://github.com/sbentleywd/recipes_db",
+    //   imgSRC: recipes,
+    //   imgAlt: "recipes screenshot",
+    // },
     {
       title: "Covid Tracker",
       description:
