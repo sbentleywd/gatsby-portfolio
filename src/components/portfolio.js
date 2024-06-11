@@ -1,7 +1,7 @@
 import React from "react"
-import covid from "../assets/img/covid2.png"
+// import covid from "../assets/img/covid2.png"
 import word from "../assets/img/word.png"
-import recipes from "../assets/img/recipes2.png"
+// import recipes from "../assets/img/recipes2.png"
 import spotify from "../assets/img/spotify.png"
 import portfolioStyles from "./portfolio.module.scss"
 import Card from "./card"
@@ -36,15 +36,15 @@ const Portfolio = () => {
     //   imgSRC: recipes,
     //   imgAlt: "recipes screenshot",
     // },
-    {
-      title: "Covid Tracker",
-      description:
-        "Uses React, Redux, Material UI & ChartJS to display Covid-19 case data by country or UK region",
-      projectLink: "https://covvvid2.netlify.app/",
-      githubLink: "https://github.com/sbentleywd/covid-react",
-      imgSRC: covid,
-      imgAlt: "Covid tracker screenshot",
-    },
+    // {
+    //   title: "Covid Tracker",
+    //   description:
+    //     "Uses React, Redux, Material UI & ChartJS to display Covid-19 case data by country or UK region",
+    //   projectLink: "https://covvvid2.netlify.app/",
+    //   githubLink: "https://github.com/sbentleywd/covid-react",
+    //   imgSRC: covid,
+    //   imgAlt: "Covid tracker screenshot",
+    // },
   ]
 
   return (
