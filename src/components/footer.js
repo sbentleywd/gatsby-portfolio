@@ -24,7 +24,7 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
       <div>
         <span>
-          {data.site.siteMetadata.author}, &copy; 2022. Created with Gatsby
+          {data.site.siteMetadata.author}, &copy; 2024. Created with Gatsby
         </span>
       </div>
       <div>

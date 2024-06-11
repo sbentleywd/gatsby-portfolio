@@ -3,6 +3,7 @@ import React from "react"
 import word from "../assets/img/word.png"
 // import recipes from "../assets/img/recipes2.png"
 import spotify from "../assets/img/spotify.png"
+import asteroids from "../assets/img/asteroids.png"
 import portfolioStyles from "./portfolio.module.scss"
 import Card from "./card"
 
@@ -25,6 +26,14 @@ const Portfolio = () => {
       projectLink: "https://word-gaaame.netlify.app/",
       githubLink: "https://github.com/sbentleywd/word-game",
       imgSRC: word,
+      imgAlt: "Word game screenshot",
+    },
+    {
+      title: "Asteroids",
+      description: "A version of the classic arcade game using SVG and OOP",
+      projectLink: "https://sbentleywd.github.io/asteroids/",
+      githubLink: "https://github.com/sbentleywd/asteroids",
+      imgSRC: asteroids,
       imgAlt: "Word game screenshot",
     },
     // {
