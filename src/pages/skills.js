@@ -72,7 +72,7 @@ const SkillsPage = () => {
           >
             <a
               rel="noopener noreferrer"
-              href={withPrefix("/simonbentleycv2022.pdf")}
+              href={withPrefix("/simonbentleycv2024_site.pdf")}
               target="blank"
               id="download"
             >
