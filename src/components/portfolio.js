@@ -14,9 +14,9 @@ const Portfolio = () => {
     {
       title: "Spotify Recommend",
       description:
-        "An app using Spotify Web API and player SDK to recommend and play songs. Built with React, Typescript. (Requires Spotify Premium)",
-      projectLink: "https://spotify-recommend.netlify.app/",
-      githubLink: "https://github.com/sbentleywd/spotify-recommend",
+        "An app using Spotify Web API and player SDK to recommend and play songs. Built with Vue, Typescript. (Requires Spotify Premium)",
+      projectLink: "https://recommend-me3.netlify.app/",
+      githubLink: "https://github.com/sbentleywd/vue3-spotify",
       imgSRC: spotify,
       imgAlt: "spotify screenshot",
     },
